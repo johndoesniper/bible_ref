@@ -55,7 +55,7 @@ module BibleRef
           'MAT' => { match: /^mat/,             name: 'Mateus'            },
           'MRK' => { match: /^(mar|mk)/,        name: 'Marcos'            },
           'LUK' => { match: /^lu/,              name: 'Lucas'             },
-          'JHN' => { match: /^jo/,              name: 'João'              },
+          'JHN' => { match: /^jo[aã]/,          name: 'João'              },
           'ACT' => { match: /^at/,              name: 'Atos'              },
           'ROM' => { match: /^rom/,             name: 'Romanos'           },
           '1CO' => { match: /^1 cor/,           name: '1 Coríntios'       },
